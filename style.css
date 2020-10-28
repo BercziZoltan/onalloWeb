@@ -47,3 +47,16 @@ li a:hover
 {
     background-color: #111;
 }
+div
+{
+    background-color: rgba(99, 70, 80, 0.4);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.img
+{
+    background-color: rgba(99, 70, 80, 0);
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
