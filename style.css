@@ -30,18 +30,19 @@ ul
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(4, 2, 1, 0.8);
+    background-color: rgba(49, 44, 46, 0.8);
 }
-li
+li  
 {
-    float: left;
+    float: left;  
+    
 }
 li a 
 {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 15px;
 }
 li a:hover 
 {
@@ -49,14 +50,27 @@ li a:hover
 }
 div
 {
-    background-color: rgba(99, 70, 80, 0.4);
-    margin-left: 5%;
-    margin-right: 5%;
+    background-color: rgba(49, 44, 46, 0.5);
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 4%;
 }
 .img
 {
-    background-color: rgba(99, 70, 80, 0);
-    margin-left: 5%;
-    margin-right: 5%;
+    background-color: rgba(49, 44, 46, 0.6);
+    margin-left: 20%;
+    margin-right: 20%;
     text-align: center;
+}
+img
+{
+    border-radius: 50%;
+}
+footer
+{
+    background-color: rgba(4, 2, 1, 0.8);
+    text-align: center; 
+    margin-left: 45%;
+    margin-right: 45%;
+    border-radius: 50%;
 }
