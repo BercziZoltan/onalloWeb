@@ -13,7 +13,7 @@
         <ul>
             <li><a href="index.html">Főoldal</a></li>
             <li><a href="munka.html">Űrlap</a></li>
-            <li><a href="rolam.html">Egyéb információk</a></li>
+            <li><a href="egyeb.html">Egyéb információk</a></li>
         </ul>
     </nav>
     <div>
@@ -21,11 +21,12 @@
         <p>Az ezen az oldalon lévő kis űrlap kitöltésével megnézheted az érettségi ponthatárokat a témához.<br>
         (Az érdemjegyet a mellette található ponthatárok mutatják meg.)</p>
         <form>
-            Írásbeli pontok száma: <input type="number" name="num1" min="12" max="90"><br>
-            Szóbeli pontok száma: <input type="number" name="num2" min="3" max="60"><br>
+            Írásbeli pontok száma (max. 90): <input type="number" name="num1" min="12" max="90"><br>
+            Szóbeli pontok száma (max. 60): <input type="number" name="num2" min="3" max="60"><br>
             Összesen: <input type="number" name="sum"><br>
             <input type="button" value="Összead" onclick="calcSum()">
         </form>
+      <div class="table">
         <table>
               <tr>
                 <th colspan="1">Osztályzatok</th>
@@ -52,6 +53,7 @@
                 <td>119-150</td>
               </tr>
           </table>
+        </div>
           <br>
         </div>
     <script src="munka.js"></script>
